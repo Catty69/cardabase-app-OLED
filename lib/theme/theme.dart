@@ -19,3 +19,13 @@ ThemeData darkMode = ThemeData(
         tertiary: Color.fromARGB(255, 44, 116, 179), //text
     )
 );
+
+ThemeData oledMode = ThemeData(
+    brightness: Brightness.dark,
+    colorScheme: const ColorScheme.dark(
+        surface: Color.fromARGB(255, 0, 0, 0), //background
+        primary: Color.fromARGB(255, 49, 49, 49), //shades
+        secondary: Color.fromARGB(255, 32, 82, 149), //buttons
+        tertiary: Color.fromARGB(255, 255, 255, 255), //text
+    )
+);
